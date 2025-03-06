@@ -28,7 +28,7 @@ Before running the project, ensure you have the following installed:
 
 ```
 git clone https://github.com/duwand1022/backend-waitlist.git
-cd waitlist-api
+cd backend-waitlist
 ```
 
 2. **Install Dependencies:**
