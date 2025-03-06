@@ -4,7 +4,7 @@ const cors = require("cors");
 const { Resend } = require("resend");
 
 const app = express();
-app.use(cors()); // Enable CORS for all origins
+app.use(cors({ origin: "*" })); // Enable CORS for all origins
 app.use(express.json());
 
 // Waitlist API endpoint
